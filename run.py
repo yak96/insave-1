@@ -63,7 +63,7 @@ U='\033[1;35m' #UNGU
 O='\033[38;2;255;127;0;1m' #ORANGE
 C='\033[0m' #CLEAR
 N = '\x1b[0m' # WARNA MATI
-USN="Mozilla/5.0 (Linux; Android 6.0.1; SM-J500H Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 Instagram 39.0.0.19.93 Android (23/6.0.1; 320dpi; 720x1280; samsung; SM-J500H; j53g; qcom; ru_RU; 100986893)"
+USN="Mozilla/5.0 (Linux; Android 8.0.0; SM-A520F Build/R16NW; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 Instagram 41.0.0.13.92 Android (26/8.0.0; 480dpi; 1080x1920; samsung; SM-A520F; a5y17lte; samsungexynos7880; ru_RU; 103516666)"
 # USN="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
 ugen=open('ua.txt','r').read().splitlines()
 internal,external,success,checkpoint,loop,following,lisensikuni,lisensiku=[],[],[],[],0,[],[],['sukses']
@@ -517,7 +517,7 @@ class instagram:
             crf_token=re.findall(r"\"csrf_token\"\:\"(.*?)\"", str(token))[0]
             s.headers.update({
                 'authority': 'www.instagram.com',
-                'x-ig-www-claim': 'hmac.AR0_hFExdjOFLGYgHq5s2QFKLf0RXUCLge7j-A68z_JLsX49',
+                'x-ig-www-claim': 'hmac.AR3Z_YdqK9oNdrHk8RO50TVdpt1fQ2s5zPacsp7IB5SSUFGQ',
                 'x-instagram-ajax': '82a581bb9399',
                 'content-type': 'application/x-www-form-urlencoded',
                 'accept': '*/*',
@@ -696,7 +696,7 @@ def lisensi():
     except:
         tlisensi()
     ses=requests.Session()
-    res=ses.get('https://app.cryptolens.io/api/key/Activate?token=WyIyMTg4MDYzMCIsIi9lUjRxSjZXZ0swZzJrZ2NlaHVqMkFCajh2UC9qQjJlV1FXY3lUVjMiXQ==&ProductId=15855&Key='+lisensikuni[0]).json()
+    res=ses.get('https://app.cryptolens.io/api/key/Activate?token=WyIyMzU4NjUxMCIsIlRMSVY3Mk52YXQ1Ym16WG1PUy9jelNVbEx1UmppTWlLSDkzaTFWM1IiXQ==&ProductId=16355&Key='+lisensikuni[0]).json()
     status=res['licenseKey']['key']
     if status ==cek:
         banner()
@@ -773,4 +773,3 @@ if __name__=='__main__':
         lisensi()
     except requests.exceptions.ConnectionError:
         exit(f'\n [{M}!{C}] Koneksi internet bermasalah')
-
