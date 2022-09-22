@@ -196,7 +196,7 @@ def banner():
 			  
 		  𝐁𝐲 𝐃𝐢𝐠𝐢𝐭𝐚𝐥 𝐀𝐥𝐥𝐢𝐚𝐧𝐜𝐞 
 		  𝐰𝐚 : 𝟎𝟖𝟓𝟖𝟖𝟖𝟐𝟐𝟐𝟗𝟒𝟒 	  
-[/green]
+[/blue]
 """
 	sol().print(nel(au,style='',title=f'{waktu()}'))
 def loadinglisen():
