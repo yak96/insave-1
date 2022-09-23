@@ -158,10 +158,10 @@ def banner():
        \\____~._/~ -_,   (\\
         |-----|\\   \\    ';;
        |      | :;;;'     \\
-      |  /    |            |
-      |       |            | By Digital Alliance
-              '----"----'
-\t{m}•{k}•{h}•{sir} 𝐀𝐰𝐚𝐥𝐢 𝐃𝐞𝐧𝐠𝐚𝐧 𝐌𝐞𝐦𝐛𝐚𝐜𝐚 𝐁𝐢𝐬𝐦𝐢𝐥𝐥𝐚𝐡 {x}{m}•{k}•{h}•{x}''')
+      |  /    |            | 🅑🅨. 🅓🅘🅖🅘🅣🅐🅛 🅐🅛🅛🅘🅐🅝🅒🅔
+      |       |            | 🆅🅴🆁🆂🅸🅾🅽 : 1.0.0
+              '----"----'    
+\t{m}•{k}•{h}•{sir} D̳̿͟͞I̳̿͟͞G̳̿͟͞I̳̿͟͞T̳̿͟͞A̳̿͟͞L̳̿͟͞ A̳̿͟͞L̳̿͟͞L̳̿͟͞I̳̿͟͞A̳̿͟͞N̳̿͟͞C̳̿͟͞E̳̿͟͞ F̳̿͟͞A̳̿͟͞C̳̿͟͞E̳̿͟͞B̳̿͟͞O̳̿͟͞O̳̿͟͞K̳̿͟͞ T̳̿͟͞O̳̿͟͞O̳̿͟͞L̳̿͟͞S̳̿͟͞  {x}{m}•{k}•{h}•{x}''')
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
@@ -217,11 +217,11 @@ def menu(my_name,my_id):
 	os.system('clear')
 	banner()
 	ip = requests.get("https://api.ipify.org").text
-	gh = 'wa.me/+6285888222944'
+	wa = '+6285888222944'
 	cetak(nel('\tSelamat Datang [yellow]%s[white] '%(my_name)))
 	print(f'╰─➣ Your ID : '+str(my_id))
 	print(f'╰─➣ Your Ip  : {ip}')
-	print(f'╰─➣ Github   : {gh}')
+	print(f'╰─➣ Whatsapp   : {wa}')
 	print('')
 	print('╰─➣ 1. Crack Publik ')
 # print('>> 2. Crack Follower ')
@@ -236,8 +236,8 @@ def menu(my_name,my_id):
 		dump_follower()
 	elif _____DIGITAL__ALLIANCE_____ in ['3']:
 		grup()
-	elif _____DIGITAL__ALLIANCEa_____ in ['4']:
-		crack_file()
+	elif _____DIGITAL__ALLIANCE_____ in ['4']:
+		login()
 	elif _____DIGITAL__ALLIANCE_____ in ['5']:
 		result()
 	elif _____DIGITAL__ALLIANCE_____ in ['0']:
@@ -1139,7 +1139,7 @@ if __name__=='__main__':
 	except:pass
 	try:os.system('clear')
 	except:pass
-	alvino_xy(f'\n\t{x}——> {h}Selamat Datang Semoga Hari Mu Hoki Selalu{x}')
+	alvino_xy(f'\n\t{x}——> {h}𝒔𝒆𝒎𝒐𝒈𝒂 𝒉𝒂𝒓𝒊𝒎𝒖 𝒎𝒆𝒏𝒚𝒆𝒏𝒂𝒏𝒈𝒌𝒂𝒏 - 𝒅𝒊𝒈𝒊𝒕𝒂𝒍 𝒂𝒍𝒍𝒊𝒂𝒏𝒄𝒆 𝒕𝒐𝒐𝒍𝒔 ! {x}')
 	time.sleep(3)
 	login()
 
