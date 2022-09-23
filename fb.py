@@ -158,10 +158,10 @@ def banner():
        \\____~._/~ -_,   (\\
         |-----|\\   \\    ';;
        |      | :;;;'     \\
-      |  /    |            | 🅑🅨. 🅓🅘🅖🅘🅣🅐🅛 🅐🅛🅛🅘🅐🅝🅒🅔
-      |       |            | 🆅🅴🆁🆂🅸🅾🅽 : 1.0.0
+      |  /    |            | 𝑩𝒚. 𝑫𝒊𝒈𝒊𝒕𝒂𝒍 𝑨𝒍𝒍𝒊𝒂𝒏𝒄𝒆
+      |       |            | 𝑽𝒆𝒓𝒔𝒊𝒐𝒏 : 1.0.0
               '----"----'    
-\t{m}•{k}•{h}•{sir} D̳̿͟͞I̳̿͟͞G̳̿͟͞I̳̿͟͞T̳̿͟͞A̳̿͟͞L̳̿͟͞ A̳̿͟͞L̳̿͟͞L̳̿͟͞I̳̿͟͞A̳̿͟͞N̳̿͟͞C̳̿͟͞E̳̿͟͞ F̳̿͟͞A̳̿͟͞C̳̿͟͞E̳̿͟͞B̳̿͟͞O̳̿͟͞O̳̿͟͞K̳̿͟͞ T̳̿͟͞O̳̿͟͞O̳̿͟͞L̳̿͟͞S̳̿͟͞  {x}{m}•{k}•{h}•{x}''')
+\t{m}•{k}•{h}•{sir} 𝗗𝗶𝗴𝗶𝘁𝗮𝗹 𝗔𝗹𝗹𝗶𝗮𝗻𝗰𝗲 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 𝗧𝗼𝗼𝗹𝘀 {x}{m}•{k}•{h}•{x}''')
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
@@ -186,7 +186,7 @@ def login_lagi334():
 	try:
 		os.system('clear')
 		banner()
-		cetak(nel('\Digital [green]Alliance'))
+		cetak(nel('Ｄｉｇｉｔａｌ [green]Ａｌｌｉａｎｃｅ'))
 		asu = random.choice([m,k,h,b,u])
 		cookie=input(f'  [{h}•{x}] Masukkan Cookies :{asu} ')
 		data = requests.get("https://business.facebook.com/business_locations", headers = {"user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.92 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8","content-type":"text/html; charset=utf-8"}, cookies = {"cookie":cookie}) 
